@@ -1,0 +1,17 @@
+**/__pycache__/
+**/.venv/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.codex/config.toml
+.codex/config.gsc.generated.toml
+client_secret*.json
+credentials*.json
+token*.json
+seo/donnees/*
+!seo/donnees/LIRE-AVANT.md
+*.csv
+*.xlsx
+*.xls
+*.tsv

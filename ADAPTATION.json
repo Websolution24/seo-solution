@@ -1,0 +1,370 @@
+{
+  "source_archive_sha256": "f7a5f7db695d0cab49938852eac08a6ea65b2bb15fed666c5344dab47f95c5d5",
+  "target_runtime": "Codex",
+  "data_provider": "Ranxplorer MCP + Google Search Console local read-only MCP",
+  "date": "2026-10-15",
+  "agents": [
+    {
+      "agent": "seo-ancres",
+      "source_entry": ".claude/agents/seo-ancres.md",
+      "source_sha256": "356d01da1293306e4f79084fedf54c32bf66a4b601c2e17725f5a4edcba6964d",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-audit-global",
+      "source_entry": ".claude/agents/seo-audit-global.md",
+      "source_sha256": "862574dbb28e4fc61965c067c58fb46c4895c4cd41cae41b7ecbcf200164d871",
+      "tools": [
+        "get-seo-history-tool",
+        "get-seo-keywords-tool",
+        "get-seo-urls-tool",
+        "get-backlinks-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics",
+        "gsc_list_sitemaps",
+        "gsc_inspect_url"
+      ]
+    },
+    {
+      "agent": "seo-brief",
+      "source_entry": ".claude/agents/seo-brief.md",
+      "source_sha256": "09da50b0496fec0c2e16cfd5bb62bfdf60475107815322d30277872b2dc6b2d4",
+      "tools": [
+        "get-seo-serps-tool",
+        "get-keyword-paa-questions-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-cannibalisation",
+      "source_entry": ".claude/agents/seo-cannibalisation.md",
+      "source_sha256": "d0b5421f7316650aa4c581392e2a1b7b2fb06d26c7062255f7c7ffd5e6baf56f",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-cartographe",
+      "source_entry": ".claude/agents/seo-cartographe.md",
+      "source_sha256": "0dd8c4edf5086743cdd405b287ed1e72382a038051e141ac2936eedb051422c3",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-chute-trafic",
+      "source_entry": ".claude/agents/seo-chute-trafic.md",
+      "source_sha256": "3b7ada8880510aaad67ca8a30348970a5ccd4d305841e40548e73238037e0b26",
+      "tools": [
+        "get-seo-history-tool",
+        "get-seo-evo-keywords-tool",
+        "get-seo-evo-urls-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_compare_periods",
+        "gsc_inspect_url"
+      ]
+    },
+    {
+      "agent": "seo-clusters",
+      "source_entry": ".claude/agents/seo-clusters.md",
+      "source_sha256": "a307ec68942e0c533bce4b6c6dd1c338e3ac603d10aebfa55f568eb0c7f3d834",
+      "tools": [
+        "get-seo-keywords-tool",
+        "get-seo-urls-tool"
+      ],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-concurrents",
+      "source_entry": ".claude/agents/seo-concurrents.md",
+      "source_sha256": "5968778218dfa4889265acf1484266db5cb15e29f8f35c1d2a1a7d02c9e5e384",
+      "tools": [
+        "get-seo-serps-tool",
+        "get-seo-competitors-tool",
+        "get-seo-keywords-tool",
+        "get-seo-urls-tool",
+        "get-backlinks-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-crawl",
+      "source_entry": ".claude/agents/seo-crawl.md",
+      "source_sha256": "f8dea87ed8df93e0d8aa3d922700ee8e9ec58f45eb3ed66f500051daa5f2cc3b",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-crawlers-ia",
+      "source_entry": ".claude/agents/seo-crawlers-ia.md",
+      "source_sha256": "6fe82d1e722b4644a81f13c4b1f73b32eebd0ddee09e2ab7516ad8d35a8936cc",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-directeur",
+      "source_entry": ".claude/agents/seo-directeur.md",
+      "source_sha256": "b8d26e1f7941b0ac1dfc896e0ab9afa384b1b069b0c1f6b671a9941f2f3daa3f",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_connection_status",
+        "gsc_list_sites"
+      ]
+    },
+    {
+      "agent": "seo-donnees-structurees",
+      "source_entry": ".claude/agents/seo-donnees-structurees.md",
+      "source_sha256": "69098cdc47b00dcd04fe13b49697a39533ee0c041023375d91203dedb7795971",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-geo-visibilite",
+      "source_entry": ".claude/agents/seo-geo-visibilite.md",
+      "source_sha256": "caf35d0cde48c6b51e0c8c655186998d9bbc7680e0d0cf07ffeda8590c27eb08",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-images-ux",
+      "source_entry": ".claude/agents/seo-images-ux.md",
+      "source_sha256": "e7908208e8078c4de79f01e43b407e14af9d1337f4f2b6d222df2500702c2755",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-indexation",
+      "source_entry": ".claude/agents/seo-indexation.md",
+      "source_sha256": "7de4184882025f70dfaa55cb7796c4eb0e34dc2917e404a26e9fa141e37a9de8",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_list_sitemaps",
+        "gsc_inspect_url"
+      ]
+    },
+    {
+      "agent": "seo-intention",
+      "source_entry": ".claude/agents/seo-intention.md",
+      "source_sha256": "5b55db501d1732cc53e1949cd2523012f59e23d1035fc6c5077510e6e6f2fc9b",
+      "tools": [
+        "get-seo-serps-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-longue-traine",
+      "source_entry": ".claude/agents/seo-longue-traine.md",
+      "source_sha256": "f19b00e3f2228713438c9b5871eea71c79f9102fb56650ab0bfe8b07738412d0",
+      "tools": [
+        "get-keyword-similars-tool",
+        "get-keyword-related-searches-tool",
+        "get-keyword-paa-questions-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-mise-a-jour",
+      "source_entry": ".claude/agents/seo-mise-a-jour.md",
+      "source_sha256": "47593cf457915068e14e19aa51700034a848df8bb77ad3c6d64b8dc5a29b8c6e",
+      "tools": [
+        "get-seo-serps-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_compare_periods"
+      ]
+    },
+    {
+      "agent": "seo-mots-cles-business",
+      "source_entry": ".claude/agents/seo-mots-cles-business.md",
+      "source_sha256": "5703d7f2389281a15003d11a1cffe60949858bc60f651bd27abfdff393a40384",
+      "tools": [
+        "get-keyword-detail-tool",
+        "get-keyword-related-searches-tool",
+        "get-seo-keywords-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-opportunites-liens",
+      "source_entry": ".claude/agents/seo-opportunites-liens.md",
+      "source_sha256": "44ebb3827256ea87f5bfaca31d8955e6ce84c5dcf8ecffd3d37f49bd1d586541",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-outreach",
+      "source_entry": ".claude/agents/seo-outreach.md",
+      "source_sha256": "38cca716b96c82b837759515762c76dc0f29e063372fec6cd0a0331f798e7bff",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-performance",
+      "source_entry": ".claude/agents/seo-performance.md",
+      "source_sha256": "ad493af41569d51af119018841dd67e1e3203609adb3f348c691e21270cf084f",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-priorisation",
+      "source_entry": ".claude/agents/seo-priorisation.md",
+      "source_sha256": "2266e99efcefb38b0afde6cbc823bfaae6b7994d8c732ff4691b22c2d7130b53",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-profil-liens",
+      "source_entry": ".claude/agents/seo-profil-liens.md",
+      "source_sha256": "52f1c1ef4a9ac1fb64a0e31a45fd126ff26ced8644523e0444ba774d3e75de0d",
+      "tools": [
+        "get-backlinks-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-quick-wins",
+      "source_entry": ".claude/agents/seo-quick-wins.md",
+      "source_sha256": "860546738738c6af28ebbe4c621fcdb80907c9b245baa79260b0b28bc51b6bb4",
+      "tools": [
+        "get-seo-keywords-tool",
+        "get-seo-opportunities-ct-tool",
+        "get-seo-serps-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    },
+    {
+      "agent": "seo-redacteur",
+      "source_entry": ".claude/agents/seo-redacteur.md",
+      "source_sha256": "a203cb7e49b06649a69180046b21473a6076ae90181ca9bfa095ff1acca7ddb4",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-relations-presse",
+      "source_entry": ".claude/agents/seo-relations-presse.md",
+      "source_sha256": "b3d42776bf58ad616bb05d5cc3502cfc4faddbc6e3ae92392a6153b1dff47776",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-relecteur-eeat",
+      "source_entry": ".claude/agents/seo-relecteur-eeat.md",
+      "source_sha256": "63cb09da444bb6304ff9a7fbb5f56efbd2951b77ce64a8d7c82c0163d2d597e3",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-reporting",
+      "source_entry": ".claude/agents/seo-reporting.md",
+      "source_sha256": "44db4d963ca4a56c162a08e02544c005af30de1813d217a6fc65e225262fc356",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics",
+        "gsc_compare_periods"
+      ]
+    },
+    {
+      "agent": "seo-silos",
+      "source_entry": ".claude/agents/seo-silos.md",
+      "source_sha256": "78118115df177da45939ebf72f0ad1d1a09d2e548e356158ce13fab15620f5e0",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": false,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-structure-hn",
+      "source_entry": ".claude/agents/seo-structure-hn.md",
+      "source_sha256": "f85b101b0855ff89a60fad50de0767a1d47fdd2d3732642d962cbf3d21df84c0",
+      "tools": [
+        "get-seo-serps-tool"
+      ],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": []
+    },
+    {
+      "agent": "seo-title-meta",
+      "source_entry": ".claude/agents/seo-title-meta.md",
+      "source_sha256": "4c630665e3be7bca4dd8d13d11b41d3b5fac17279d9e02da4824f66b1fa378ef",
+      "tools": [],
+      "method_adapted_for_data_or_runtime": true,
+      "gsc_tools": [
+        "gsc_search_analytics"
+      ]
+    }
+  ],
+  "live_connection_tested": false,
+  "search_console": {
+    "connector_version": "1.0.0",
+    "read_only": true,
+    "live_connection_tested": false,
+    "credential_storage": "OS credential vault; no credentials in the pack",
+    "tools": [
+      "gsc_connection_status",
+      "gsc_list_sites",
+      "gsc_search_analytics",
+      "gsc_compare_periods",
+      "gsc_inspect_url",
+      "gsc_list_sitemaps"
+    ],
+    "stdio_protocol_test": "passed with fictional data, no Google calls or real credentials"
+  },
+  "installation": {
+    "entry_prompt": "PROMPT_INSTALLATION.txt",
+    "guide": "INSTALLER.md",
+    "local_installer": "installer.py",
+    "creates_new_folder": true,
+    "app_project_creation": "depends on available app tools; manual Add project otherwise"
+  },
+  "validation": {
+    "gsc_offline_unit_tests": 24,
+    "installer_scenarios": 3,
+    "local_mcp_stdio_protocol": "passed with fictional data",
+    "google_account_connected": false,
+    "ranxplorer_account_connected": false
+  },
+  "product_name": "SEO Solution",
+  "release_version": "1.0.0",
+  "release_date": "2026-10-29"
+}
