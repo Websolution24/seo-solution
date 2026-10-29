@@ -1,0 +1,8 @@
+# Exemple à fusionner dans .codex/config.toml du projet, sans remplacer l'existant.
+# L'utilisateur configure sa clé hors de ce pack, dans l'environnement de Codex.
+# Activer seulement après configuration et autorisation du budget API.
+[mcp_servers.ranxplorer]
+url = "https://mcp.ranxplorer.com/mcp/ranxplorer"
+enabled = false
+env_http_headers = { "X-API-Key" = "RANXPLORER_API_KEY" }
+enabled_tools = ["get-backlinks-tool", "get-keyword-detail-tool", "get-keyword-paa-questions-tool", "get-keyword-related-searches-tool", "get-keyword-similars-tool", "get-seo-competitors-tool", "get-seo-evo-keywords-tool", "get-seo-evo-urls-tool", "get-seo-history-tool", "get-seo-keywords-tool", "get-seo-opportunities-ct-tool", "get-seo-serps-tool", "get-seo-urls-tool"]
